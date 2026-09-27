@@ -100,7 +100,7 @@ export default function TrainingSession() {
       </div>
 
       {/* 3D Canvas */}
-      <Canvas>
+      <Canvas camera={{ position: [0, 1.2, 3], fov: 60 }}>
         <XR>
           <ambientLight intensity={0.6} />
           <directionalLight position={[10, 10, 10]} intensity={1} castShadow />
